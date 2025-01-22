@@ -1,9 +1,6 @@
 {
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/login.html",
-      "permanent": true
-    }
+  "version": 2,
+  "routes": [
+    { "src": "/(.*)", "dest": "/src/login.html" }
   ]
 }
