@@ -1,7 +1,6 @@
 {
   "version": 2,
-  "public": "./src",
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+  "routes": [
+    { "src": "/(.*)", "dest": "/src/index.html" }
   ]
 }
