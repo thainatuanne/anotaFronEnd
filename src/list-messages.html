@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Mensagens</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="message-header">
+            <img src="./images/messages-icon.svg" alt="Ícone de Recados" class="logo">
+            <h1>Minhas Mensagens</h1>
+        </div>
+    </header>
+    
+    <main>
+        <section class="message-container">
+            <h2 class="visually-hidden">Lista de Recados</h2>
+            <div class="message-list" aria-live="polite" aria-label="Mensagens listadas">
+            </div>
+        </section>
+    </main>
+    
+    <button class="add-message-button" onclick="redirectToAddMessage()">
+        <i class="bi bi-plus-circle"></i>
+    </button>
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <script src="./js/api.js"></script>
+    <script src="./js/delete-messages.js"></script>
+    <script src="./js/list-messages.js"></script>
+</body>
+</html>
