@@ -13,7 +13,7 @@ signupForm.addEventListener("submit", async (event) => {
     if (response.status === 201) {
       alert(`Cadastro realizado com sucesso! Seja bem-vindo, ${name}.`);
 
-      window.location.href = "login.html";
+      window.location.href = "index.html";
     }
   } catch (error) {
     console.error("Erro ao cadastrar usuário:", error);

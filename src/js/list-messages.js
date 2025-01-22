@@ -5,7 +5,7 @@ async function loadUserMessages() {
 
   if (!userSession) {
     alert("Por favor, faça login para acessar suas mensagens.");
-    window.location.href = "login.html";
+    window.location.href = "index.html";
     return;
   }
 

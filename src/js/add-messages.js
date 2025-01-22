@@ -8,7 +8,7 @@ formAddMessage.addEventListener("submit", async (event) => {
   const userSession = localStorage.getItem("user");
   if (!userSession) {
     alert("Por favor, faça login para adicionar uma mensagem.");
-    window.location.href = "login.html";
+    window.location.href = "index.html";
     return;
   }
 
