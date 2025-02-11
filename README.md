@@ -2,9 +2,9 @@
 
 - O **Anota+FrontEnd** é a interface web do sistema **Anota+**, uma aplicação simples para gerenciamento de recados. Ele permite que os usuários façam login, cadastrem-se, adicionem, editem, excluam e visualizem recados. O front-end se comunica com o backend para armazenar e recuperar os dados, garantindo uma experiência intuitiva e eficiente para o usuário.
 
-🌐 Demonstração
-🔗 Back-end API: Anota+ API https://anota.onrender.com/
-🔗 Front-end: Anota+ FrontEnd https://anota-fron-end.vercel.app/
+## 🌐 Demonstração
+- 🔗 Back-end API: Anota+ API https://anota.onrender.com/
+- 🔗 Front-end: Anota+ FrontEnd https://anota-fron-end.vercel.app/
 
 ## 🚀 Funcionalidades
 
@@ -44,7 +44,7 @@
   login.html             # Página de login
   signup.html            # Página de cadastro
   update-messages.html   # Página de edição de recados
-
+```
 ---
   📡 Endpoints da API
 
@@ -52,16 +52,16 @@
 
 
 ## Login 
-![Login](../anotaFronEnd/src/images/login.png)
+![Login](src/images/login.png)
 
 ## Cadastro 
-![Cadastro](../anotaFronEnd/src/images/cadastro.png)
+![Cadastro](src/images/cadastro.png)
 
 ## Recados
-![Recados](../anotaFronEnd/src/images/recados.png)
+![Recados](src/images/recados.png)
 
 ## Adicionar Recado
-![Adicionar Recado](../anotaFronEnd/src/images/addRecados.png)
+![Adicionar Recado](src/images/addRecados.png)
 
 ## Mensagens
-![Mensagens](../anotaFronEnd/src/images/mensagemAdd.png)
+![Mensagens](src/images/mensagemAdd.png)
